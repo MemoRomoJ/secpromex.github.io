@@ -197,9 +197,8 @@ function sendMsg(){
 	/* + document.getElementById("demo-priority").value;*/
 	fullStr += "%20tengo%20experiencia%20como%20elemento%20de%20seguridad.";
 
-	window.location.href = "mailto:reclutamiento.secpromex@hotmail.com?subject=Información/Solicitud SECPROMEX&body=" + fullStr;
-	//window.open("); 
+	//window.location.href = "mailto:reclutamiento.secpromex@hotmail.com?subject=Información/Solicitud SECPROMEX&body=" + fullStr;
+	window.open("mailto:reclutamiento.secpromex@hotmail.com?subject=Información/Solicitud SECPROMEX&body="); 
 	//window.open("https://wa.me/524491280848?text=" + fullStr); 
 	// mailto:no-one@snai1mai1.com?subject=look at this website&body=
-	/* https://wa.me/5211234567890?text=Me%20gustaría%20saber%20mas \n  demo-priority 	*/
 }
